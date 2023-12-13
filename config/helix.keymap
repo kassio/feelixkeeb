@@ -33,7 +33,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB     &kp Q      &kp W          &kp E   &kp R         &kp T                                     &kp Y              &kp U          &kp I      &kp O       &kp P      &kp BACKSLASH
 &kp ESCAPE  &kp A      &kp S          &kp D   &kp F         &kp G                                     &kp H              &kp J          &kp K      &kp L       &kp SEMI   &kp ENTER
 &kp LSHFT   &kp Z      &kp X          &kp C   &kp V         &kp B             &kp LBKT     &kp RBKT   &kp N              &kp M          &kp COMMA  &kp PERIOD  &kp SLASH  &kp SQT
-&mo 1       &kp LCTRL  &kp LG(SPACE)  &none   &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE    &kp SPACE  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &none      &none       &none      &none
+&mo 1       &kp LCTRL  &kp LG(SPACE)  &none   &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE    &kp SPACE  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &none      &none       &none      &kp EQUAL
             >;
         };
 
@@ -46,11 +46,11 @@ As such, those are in use within the default layer at this time.*/
             // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
 
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                    &kp F6          &kp F7    &kp F8        &kp F9     &kp F10  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                    &trans          &trans    &trans        &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                    &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LC(LS(LG(F6))))    &trans  &trans          &trans    &trans        &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans          &trans    &trans        &trans     &trans   &trans
+&trans  &kp F1  &kp F2             &kp F3  &kp F4  &kp F5                                               &kp F6          &kp F7    &kp F8        &kp F9     &kp F10  &trans
+&trans  &trans  &trans             &trans  &trans  &trans                                               &trans          &trans    &trans        &trans     &trans   &trans
+&trans  &trans  &trans             &trans  &trans  &trans                                               &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans   &trans
+&trans  &trans  &trans             &trans  &trans  &trans  &kp LA(LC(LS(LG(F6))))    &trans             &trans          &trans    &trans        &trans     &trans   &trans
+&trans  &trans  &kp LC(LG(SPACE))  &trans  &trans  &trans  &trans                    &kp LC(LA(LG(C)))  &trans          &trans    &trans        &trans     &trans   &trans
             >;
         };
     };
