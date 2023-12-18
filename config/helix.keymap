@@ -14,7 +14,7 @@
 &mo 1       &kp LCTRL  &kp LG(SPACE)  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &kp SPACE    &kp SPACE  &kp SPACE  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &none       &kp BACKSLASH  &kp EQUAL
             >;
 
-            label = "base";
+            label = "";
         };
 
         lower_layer {
