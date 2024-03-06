@@ -9,7 +9,7 @@
             #binding-cells = <1>;
             bindings =
                 <&bt BT_NXT>,
-                <&macro_wait_time 30>,
+                <&macro_wait_time 500>,
                 <&macro_param_1to1 &kp MACRO_PLACEHOLDER &bt BT_PRV>;
 
             label = "MO_NBT_KP";
