@@ -32,10 +32,10 @@
         fn {
             label = "fn";
             bindings = <
-&trans  &trans  &trans                &trans             &trans            &kp F5                            &kp LG(SPACE)   &kp LA(LC(LG(C)))        &kp LC(LG(SPACE))  &kp LA(LC(LG(SPACE)))  &kp F10        &kp DELETE
-&trans  &trans  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT                        &kp LEFT_ARROW  &kp DOWN                 &kp UP_ARROW       &kp RIGHT              &trans         &trans
-&trans  &trans  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP                   &trans          &kp LS(LA(LC(LG(F21))))  &kp LEFT_BRACKET   &kp RIGHT_BRACKET      &kp BACKSLASH  &kp EQUAL
-&trans  &trans  &trans                &trans             &trans            &trans           &mo 3    &trans  &trans          &trans                   &trans             &trans                 &trans         &trans
+&trans  &trans  &trans                &trans             &trans            &kp F5                            &kp LG(SPACE)   &kp LA(LC(LG(C)))  &kp LC(LG(SPACE))  &kp LA(LC(LG(SPACE)))  &kp F10        &kp DELETE
+&trans  &trans  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT                        &kp LEFT_ARROW  &kp DOWN           &kp UP_ARROW       &kp RIGHT              &trans         &trans
+&trans  &trans  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP                   &trans          &kp LS(LG(F10))    &kp LEFT_BRACKET   &kp RIGHT_BRACKET      &kp BACKSLASH  &kp EQUAL
+&trans  &trans  &trans                &trans             &trans            &trans           &mo 3    &trans  &trans          &trans             &trans             &trans                 &trans         &trans
             >;
         };
 
